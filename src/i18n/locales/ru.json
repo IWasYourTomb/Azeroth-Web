@@ -1,0 +1,229 @@
+{
+  "seo": {
+    "title": "Azeroth Launcher — World of Warcraft on macOS",
+    "description": "Azeroth Launcher is a convenient way to play World of Warcraft on macOS. Manage game installations, graphics settings and runtime environments in one application."
+  },
+  "navigation": {
+    "home": "Главная",
+    "features": "Возможности",
+    "screenshots": "Скриншоты",
+    "download": "Скачать",
+    "expansions": "Дополнения",
+    "howItWorks": "Как это работает",
+    "releaseNotes": "Обновления",
+    "compatibility": "Совместимость"
+  },
+ 
+  "hero": {
+    "eyebrow": "Твой путь в Азерот начинается здесь",
+    "title": "Azeroth Launcher",
+    "description": "Новый способ играть в World of Warcraft на macOS. Удобное управление игровыми клиентами, настройками и окружением.",
+    "download": "Скачать лаунчер",
+    "github": "Открыть GitHub"
+  },
+  "theme": {
+    "dark": "Тёмная",
+    "light": "Светлая",
+    "system": "Системная"
+  },
+  "expansions": {
+    "eyebrow": "Поддерживаемые дополнения",
+    "title": "Классические миры World of Warcraft",
+    "description": "Играйте в любимые дополнения на macOS с помощью Azeroth Launcher.",
+    "wotlk": {
+      "name": "Wrath of the Lich King",
+      "subtitle": "Пробудите силы ледяного севера",
+      "version": "3.3.5"
+    },
+    "cataclysm": {
+      "name": "Cataclysm",
+      "subtitle": "Мир изменился навсегда",
+      "version": "4.3.4"
+    },
+    "pandaria": {
+      "name": "Mists of Pandaria",
+      "subtitle": "Откройте затерянный континент",
+      "version": "5.4.8"
+    }
+  },
+"features": {
+  "eyebrow": "ВОЗМОЖНОСТИ AZEROTH LAUNCHER",
+  "title": "Всё необходимое. В одном месте.",
+  "description": "Полный набор инструментов для игры в World of Warcraft на macOS.",
+  "runtime": {
+    "title": "Wine Runtime",
+    "description": "Управление средой совместимости, необходимой для запуска World of Warcraft на macOS."
+  },
+  "installations": {
+    "title": "Несколько установок",
+    "description": "Храните несколько игровых клиентов и управляйте ими из одного места."
+  },
+  "graphics": {
+    "title": "Настройки графики",
+    "description": "Настраивайте графические параметры и оптимизируйте игровой процесс."
+  },
+  "updates": {
+    "title": "Автообновления",
+    "description": "Поддерживайте Azeroth Launcher в актуальном состоянии благодаря встроенной системе Sparkle."
+  }
+},
+"screenshots": {
+  "eyebrow": "ПОЗНАКОМЬТЕСЬ ПОБЛИЖЕ",
+  "title": "Азерот в деталях.",
+  "description": "Оцените интерфейс, созданный для комфортной игры в World of Warcraft на macOS.",
+  "items": {
+    "home": {
+      "title": "Центр управления",
+      "description": "Всё необходимое всегда под рукой."
+    },
+    "games": {
+      "title": "Ваша игровая библиотека",
+      "description": "Управляйте всеми установленными игровыми клиентами."
+    },
+    "launch": {
+      "title": "Настройки запуска",
+      "description": "Настройте игровое окружение перед запуском."
+    },
+    "settings": {
+      "title": "Персонализация",
+      "description": "Настройте Azeroth Launcher под себя."
+    }
+  },
+  "view": "Посмотреть скриншот",
+  "close": "Закрыть скриншот"
+},
+"download": {
+  "eyebrow": "ГОТОВ К ПУТЕШЕСТВИЮ ПО АЗЕРОТУ?",
+  "title": "Твоё приключение начинается здесь.",
+  "description": "Открой для себя World of Warcraft на Mac с помощью Azeroth Launcher.",
+  "latestVersion": "ПОСЛЕДНЯЯ ВЕРСИЯ",
+  "released": "Опубликовано",
+  "dmg": "Скачать DMG",
+  "zip": "Скачать ZIP",
+  "github": "Открыть GitHub",
+  "loading": "Проверяем последнюю версию...",
+  "error": "Не удалось получить информацию о последнем релизе.",
+  "retry": "Попробовать снова",
+  "noDmg": "DMG-пакет недоступен",
+  "noZip": "ZIP-пакет недоступен",
+  "requirements": "macOS · Apple Silicon и Intel",
+  "size": "Размер файла",
+  "releaseNotesEyebrow": "ПОСЛЕДНЕЕ ОБНОВЛЕНИЕ",
+  "releaseNotesTitle": "Что нового",
+  "fullReleaseNotes": "Полный список изменений"
+},
+  "howItWorks": {
+
+    "eyebrow": "Просто начать",
+
+    "title": "Твой путь в",
+
+    "titleAccent": "Азерот",
+
+    "description": "Всего несколько простых шагов отделяют тебя от любимого мира World of Warcraft.",
+
+    "step": "ШАГ",
+
+    "steps": {
+
+      "install": {
+
+        "title": "Установи Azeroth",
+
+        "description": "Скачай лаунчер и установи его на свой Mac. Всё необходимое для старта в одном месте."
+
+      },
+
+      "add": {
+
+        "title": "Добавь игру",
+
+        "description": "Укажи расположение клиента World of Warcraft или добавь уже существующую установку."
+
+      },
+
+      "configure": {
+
+        "title": "Настрой запуск",
+
+        "description": "Выбери нужные параметры совместимости и настройки запуска под свою систему."
+
+      },
+
+      "play": {
+
+        "title": "Отправляйся в Азерот",
+
+        "description": "Запускай игру прямо из лаунчера и возвращайся в мир приключений."
+
+      }
+
+    },
+
+    "footer": "Никаких сложных настроек. Только ты, твоя игра и Азерот.",
+
+    "cta": "Скачать лаунчер"
+
+  },
+  "compatibility": {
+
+    "eyebrow": "Создан для macOS",
+
+    "title": "Твоя система.",
+
+    "titleAccent": "Твои правила.",
+
+    "description": "Узнай больше о платформе, архитектуре и возможностях запуска World of Warcraft.",
+
+    "platform": {
+
+      "label": "Операционная система",
+
+      "title": "macOS",
+
+      "description": "Azeroth Launcher создан для работы в среде macOS.",
+
+      "badge": "macOS"
+
+    },
+
+    "architecture": {
+
+      "label": "Архитектура",
+
+      "title": "Apple Silicon",
+
+      "description": "Разработка и тестирование с учётом современных Mac на базе Apple Silicon.",
+
+      "badge": "Apple Silicon"
+
+    },
+
+    "clients": {
+
+      "label": "Игровые клиенты",
+
+      "title": "World of Warcraft",
+
+      "description": "Добавляй существующие установки игры и управляй ими из одного интерфейса.",
+
+      "badge": "Управление клиентами"
+
+    },
+
+    "runtime": {
+
+      "label": "Среда запуска",
+
+      "title": "Гибкие настройки",
+
+      "description": "Используй доступные параметры совместимости и графические настройки для своего игрового клиента.",
+
+      "badge": "Настраиваемый запуск"
+
+    },
+
+    "note": "Совместимость зависит от версии macOS, архитектуры устройства, игрового клиента и используемой конфигурации среды запуска."
+
+  }
+}
