@@ -23,7 +23,8 @@
   "theme": {
     "dark": "Dark",
     "light": "Light",
-    "system": "System"
+    "system": "System",
+    "title": "Theme"
   },
   "expansions": {
     "eyebrow": "Supported Expansions",

@@ -151,13 +151,11 @@ onUnmounted(() => {
   transition: opacity .2s ease;
 }
 
-/* HIDDEN */
 
 .magic-cursor.is-hidden {
   opacity: 0;
 }
 
-/* CORE */
 
 .magic-cursor__core {
   position: absolute;
