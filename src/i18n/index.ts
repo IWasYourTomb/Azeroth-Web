@@ -5,18 +5,29 @@ import en from './locales/en.json'
 
 export type AppLocale = 'ru' | 'en'
 
-const savedLocale = localStorage.getItem('azeroth-locale')
+const STORAGE_KEY = 'azeroth-locale'
 
-const locale: AppLocale =
-  savedLocale === 'ru' || savedLocale === 'en'
-    ? savedLocale
-    : navigator.language.toLowerCase().startsWith('ru')
-      ? 'ru'
-      : 'en'
+function getInitialLocale(): AppLocale {
+  const savedLocale = localStorage.getItem(STORAGE_KEY)
+
+  if (savedLocale === 'ru' || savedLocale === 'en') {
+    return savedLocale
+  }
+
+  const preferredLanguages = navigator.languages?.length
+    ? navigator.languages
+    : [navigator.language]
+
+  return preferredLanguages.some(language =>
+    language.toLowerCase().startsWith('ru')
+  )
+    ? 'ru'
+    : 'en'
+}
 
 export const i18n = createI18n({
   legacy: false,
-  locale,
+  locale: getInitialLocale(),
   fallbackLocale: 'en',
   messages: {
     ru,
